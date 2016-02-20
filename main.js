@@ -9,7 +9,7 @@ var character = document.getElementById("character").value;
 for (i = 0; i < height; i++) {
 	// spacing
 	for (j = 0; j < height-i-1; j++) {
-		tree += " "
+		tree += "&nbsp;"
 	}
 	// character
 	for (j = 0; j < i*2+1; j++) {
